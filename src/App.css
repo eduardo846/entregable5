@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.a1 {
+  display: inline-table;
+  margin: 1rem;
+  border: 0.5px solid gray;
+  border-radius: 10%;
+  padding: 0.5rem;
+  background-color: grey;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+.a2{
+  height: 4rem;
+}
+.imgpokemon {
+  width: 10rem;
+}
+.a3{
+  opacity: 15%;
+  color: aliceblue;
+  text-align: right;
+}
